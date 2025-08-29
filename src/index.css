@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: rgb(19 57 255);
+  --color-secondary: #001999 ;
+  --color-gray : #101010;
+}
+/* Custom font families */
+.font-lexend {
+  font-family: 'Lexend', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.font-source-serif {
+  font-family: 'Source Serif Pro', -apple-system, Roboto, Helvetica, sans-serif;
+}
+body {
+  @apply bg-white text-gray-800;
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+/* Since 2006 Component Styles */
+.since-2006-bg-year {
+  font-family: 'Lexend', -apple-system, Roboto, Helvetica, sans-serif;
+  font-weight: 700;
+  opacity: 0.05;
+  color: #111;
+  position: absolute;
+  pointer-events: none;
+  text-align: center;
+  width: 100%;
+}
